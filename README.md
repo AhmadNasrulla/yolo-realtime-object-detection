@@ -5,9 +5,9 @@ This project implements **YOLO (You Only Look Once)**, a state-of-the-art, real-
 
 ## 🚀 Features
 - Real-time object detection with YOLO.
-- Supports image and video input formats.
+- Supports webcam input formats.
 - Configurable confidence threshold for detections.
-- Customizable to support various YOLO versions (YOLOv3, YOLOv4, YOLOv5, YOLOv8, etc.).
+- Support YOLO version 11.
 - Easy integration with cameras or other video feeds.
 - Visualizes detected objects with bounding boxes and labels.
 
@@ -15,16 +15,14 @@ This project implements **YOLO (You Only Look Once)**, a state-of-the-art, real-
 - **Python**: Main programming language.
 - **OpenCV**: For image and video processing.
 - **YOLO Framework**: Core object detection engine.
-- **Numpy**: For data manipulation.
 - **Pre-trained YOLO Models**: Leveraging transfer learning for accurate predictions.
 
 ## 📋 Prerequisites
 Ensure you have the following installed:
-- Python 3.7 or above
+- Python 3.9 or above
 - pip (Python package manager)
 - OpenCV (`pip install opencv-python`)
-- Numpy (`pip install numpy`)
-- Pre-trained YOLO weights and configuration files (e.g., `yolov3.weights`, `yolov3.cfg`).
+- Pre-trained YOLO weights and configuration files.
 
 ## 📂 Project Structure
 ```

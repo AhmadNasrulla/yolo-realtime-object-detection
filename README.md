@@ -32,12 +32,12 @@ yolo-object-detection/
 ├── README.md              # Project documentation
 ├── main.py                # Main application script
 ├── models/                # YOLO model weights and configuration files
-│   ├── yolov3.cfg
-│   ├── yolov3.weights
-├── utils/                 # Utility scripts
-│   ├── yolo_utils.py      # Helper functions for YOLO
-│   ├── draw_boxes.py      # Visualization helpers
-├── input/                 # Input images/videos
+│   ├── yolo11l.pt
+│   ├── yolo11l-cls.pt
+│   ├── yolo11l-seg.pt
+│   ├── yolo11l-obb.pt
+├── utils.py                 # Utility script
+├── images/                 # Input images
 ├── output/                # Output with detected objects
 └── requirements.txt       # Python dependencies
 ```
@@ -64,6 +64,13 @@ Run the following command to process an image:
 python main.py
 ```
 Select option 2 and enter.
+
+### Real-Time Segmentation (Webcam)
+Run the following command to process an image:
+```bash
+python main.py
+```
+Select option 3 and enter.
 
 ## 🖼️ Sample Output
 Sample outputs with bounding boxes and labels are saved in the `output/` directory.
